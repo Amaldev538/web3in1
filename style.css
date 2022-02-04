@@ -1,0 +1,75 @@
+.Title{
+    text-align: center;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 60px;
+}
+.Sub-Heading{
+    text-align: center;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+}
+.MainPoster{
+    width: 600px;
+
+}
+.TrackPoster{
+    width: 500px;
+   
+}
+.Tracks{
+    text-align: center;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 50px;
+    
+}
+.MainPoster-Div{
+    display: flex;
+    justify-content: center;
+    
+}
+.TrackPoster-Div{
+    display: flex;
+    justify-content: center;
+}
+.Registerlink-Div{
+   text-align: center;
+    
+}
+.Registerlink{
+    margin-top: 10px;
+    margin-bottom: 50px;
+    font-size: 20px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.Registerlink:hover {
+    color: blueviolet;
+}
+body{
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(pexels-soumil-kumar-735911.jpg);
+    background-size: cover;
+    background-position: center ;
+    text-align: center;
+}
+@media screen and (max-width:860px) {
+    .TrackPoster-Div{
+        flex-direction: column;
+        align-items: center;
+    }
+    .TrackPoster{
+        width:300px
+        margin-bottom: 25px;
+        margin-right:0px;
+        
+    
+    }
+    .MainPoster{
+        width:350px
+    }
+    
+}
