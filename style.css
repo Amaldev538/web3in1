@@ -71,5 +71,11 @@ body{
     .MainPoster{
         width:350px;
     }
+    body{
+        background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(pexels-soumil-kumar-735911.jpg);
+        background-size: cover;
+        background-position: center ;
+        text-align: center;
+    }
     
 }
