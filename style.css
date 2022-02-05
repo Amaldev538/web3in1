@@ -62,14 +62,14 @@ body{
         align-items: center;
     }
     .TrackPoster{
-        width:300px
+        width:300px;
         margin-bottom: 25px;
         margin-right:0px;
         
     
     }
     .MainPoster{
-        width:350px
+        width:350px;
     }
     
 }
